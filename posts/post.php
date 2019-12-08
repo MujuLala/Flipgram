@@ -9,7 +9,7 @@ include ("../includes/num_k_m_count.php");
 if(!isset($_SESSION['Username'])){
     header("location: ../index");
 }
-if (is_dir("imgs/")) {
+ if (is_dir("imgs/")) {
     $check_path = "";
 }elseif (is_dir("../imgs/")) {
     $check_path = "../";
